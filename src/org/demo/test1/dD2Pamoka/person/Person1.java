@@ -1,6 +1,4 @@
-package org.demo.test1.ND2Pamoka.Person;
-
-import org.w3c.dom.ls.LSOutput;
+package org.demo.test1.dD2Pamoka.person;
 
 //03 java types 41 skaidre uzd Person
 public class Person1 {

@@ -1,4 +1,4 @@
-package org.demo.test1.Treniruotei;
+package org.demo.test1.treniruotei;
 //04 pamoka uzd Sultys
 public class Example3 {
     public class Main {

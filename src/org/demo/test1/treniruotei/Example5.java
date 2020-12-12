@@ -1,4 +1,4 @@
-package org.demo.test1.Treniruotei;
+package org.demo.test1.treniruotei;
 
 public class Example5 {
     public void main(String[] args) {

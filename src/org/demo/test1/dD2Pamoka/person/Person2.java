@@ -1,4 +1,4 @@
-package org.demo.test1.ND2Pamoka.Person;
+package org.demo.test1.dD2Pamoka.person;
 
 public class Person2 {
     static int myMethod(int x, int y) {

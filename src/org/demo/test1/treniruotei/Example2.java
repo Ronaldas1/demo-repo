@@ -1,4 +1,4 @@
-package org.demo.test1.Treniruotei;
+package org.demo.test1.treniruotei;
 
 //Turim metodą, kuris patikrina ar paduotas skaičius yra lyginis. Tarkim, prireikė turėti metodą arNelyginis().
 class Main {
