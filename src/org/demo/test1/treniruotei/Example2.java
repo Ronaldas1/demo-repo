@@ -13,14 +13,13 @@ class Main {
         boolean p5B = true;
         boolean p6p5 = false;
         boolean AB = true;
-        System.out.println(Ap1 == p1p2 == p2B );
+        System.out.println(Ap1 == p1p2 == p2B);
         System.out.println(Ap1 == p1p3 == p3p5 == p5B);
-        System.out.println( AB == (Ap1 = p1p2 = p2B));
+        System.out.println(AB == (Ap1 = p1p2 = p2B));
         System.out.println(AB == (Ap4 == p4p5 == p5B));
         System.out.println(AB == (Ap1 == p3p5 == p5B));
         System.out.println(AB == (Ap4 == p4p5 == p6p5 == p5B));
-        System.out.println(AB ^Ap4 == p4p5 == p6p5 == p5B);
-
+        System.out.println(AB ^ Ap4 == p4p5 == p6p5 == p5B);
 
 
         //tokiu budu sudeciau visa masruta is A per p iki B.
@@ -28,33 +27,30 @@ class Main {
     }
 
 
-        //int x = 10;
-        //int y = 9;
-        //System.out.println(x > y);
-        //System.out.println(x % 2 == 0);
+    //int x = 10;
+    //int y = 9;
+    //System.out.println(x > y);
+    //System.out.println(x % 2 == 0);
     //}
 
     public static class Bridges {
         //public boolean getway(
-            //boolean p1p2 = true;
-            //boolean p1p2 = true;
+        //boolean p1p2 = true;
+        //boolean p1p2 = true;
 
 
         //return Ap1 && p1p2 && p2B == true;
-            }
-        }
+    }
+}
 
 
-
-
-
-    //}
-    //int c = 6;
-    //private boolean arNelyginis  (int sk){
-    //int c = 6;
-    //boolean c = true;
-    //boolean arNelyginis = c % 2 == 0;
-    //System.out.println(c / 2 ==0);
-    //return c % 2 == 0;
+//}
+//int c = 6;
+//private boolean arNelyginis  (int sk){
+//int c = 6;
+//boolean c = true;
+//boolean arNelyginis = c % 2 == 0;
+//System.out.println(c / 2 ==0);
+//return c % 2 == 0;
 //}
 

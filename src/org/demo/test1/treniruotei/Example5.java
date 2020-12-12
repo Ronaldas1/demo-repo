@@ -1,6 +1,8 @@
 package org.demo.test1.treniruotei;
 
 public class Example5 {
+    private int skaicius = 5;
+
     public void main(String[] args) {
         int sk = 0;
         printSk(sk);
@@ -15,8 +17,6 @@ public class Example5 {
     private void printSk(int i) {
         System.out.println(i);
     }
-
-    private int skaicius = 5;
 
     private int skaicius(int sk1) {
         int sk2 = -2;
@@ -55,21 +55,24 @@ public class Example5 {
 
         private int skaicius2 = 15;
         private int skaicius3 = 16;
-        public void isveskSuma (int sk1) {
+
+        public void isveskSuma(int sk1) {
             int sk2 = -10;
             sk2 = sk2 + skaicius2;
             System.out.println(sk2);
             System.out.println(skaicius3);
 
         }
-        public <KitaMano> void pridek10 (int pradinis){
-        KitaMano k1 = new KitaMano();
-        k1.isvesk (pradinis + 10);
+
+        public <KitaMano> void pridek10(int pradinis) {
+            KitaMano k1 = new KitaMano();
+            k1.isvesk(pradinis + 10);
         }
     }
+
     public static class KitaMano {
-      public void isvesk (int skaicius){
-          System.out.println(sk1);
-      }
+        public void isvesk(int skaicius) {
+            System.out.println(sk1);
+        }
     }
 }
