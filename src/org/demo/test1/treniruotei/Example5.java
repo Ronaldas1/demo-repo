@@ -3,18 +3,8 @@ package org.demo.test1.treniruotei;
 public class Example5 {
     private int skaicius = 5;
 
-    public void main(String[] args) {
-        int sk = 0;
-        printSk(sk);
-        printSk(++sk);
-        printSk(sk);
-        printSk(sk++);
-        printSk(sk);
 
-
-    }
-
-    private void printSk(int i) {
+    public void printSk(int i) {
         System.out.println(i);
     }
 
@@ -51,7 +41,7 @@ public class Example5 {
         System.out.println(skaicius);
     }
 
-    public static class Mano {
+    /*public static class Mano {
 
         private int skaicius2 = 15;
         private int skaicius3 = 16;
@@ -74,5 +64,5 @@ public class Example5 {
         public void isvesk(int skaicius) {
             System.out.println(sk1);
         }
-    }
+    }*/
 }
