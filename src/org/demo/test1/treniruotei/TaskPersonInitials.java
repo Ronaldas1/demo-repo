@@ -7,6 +7,7 @@ public class TaskPersonInitials {
 
     public static void pavarde() {
         System.out.println("Jonaitis");
+
     }
 
     public static void asmensKodas() {
@@ -14,15 +15,19 @@ public class TaskPersonInitials {
     }
 
     public static void gimimoMetai() {
-        System.out.println(2000);
+        System.out.println(2002);
     }
 
     public static void lytis() {
         System.out.println("vyras");
     }
 
-    public String makeInitials(String vardas, String pavarde){
+    public String makeInitials(String vardas, String pavarde) {
+        TaskPersonInitials initials = new TaskPersonInitials();
+        System.out.println(pavarde.replaceAll("Jonaitis", "J"));
+        System.out.println(pavarde.charAt(1));
 
         return null;
     }
+
 }
