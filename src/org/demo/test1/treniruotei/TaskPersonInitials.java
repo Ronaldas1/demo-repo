@@ -1,10 +1,12 @@
 package org.demo.test1.treniruotei;
 
+import org.demo.test1.dD2Pamoka.person.Asmuo;
+
 public class TaskPersonInitials {
 
 
 
-    public String makeInitials(String vardas, String pavarde) {
+    public String makeInitials(Asmuo asm) {
 
 
 //       pavarde.substring(1, 7);
@@ -15,7 +17,8 @@ public class TaskPersonInitials {
 //        pavarde.indexOf(1);
 //        pavarde.substring(1);
         //vardas = ""
-        vardas = vardas + ". ";
+       String vardas = asm.getVardas() + ". ";
+       String pavarde = asm.getPavarde();
         //vardas vardas.compareToIgnoreCase(vardas);
         vardas = vardas.toLowerCase();
         vardas = vardas.toUpperCase();
@@ -25,4 +28,8 @@ public class TaskPersonInitials {
         return vardas + pavarde;
     }
 
+
+    public String makeInitials(String jonaitis) {
+        return jonaitis;
+    }
 }

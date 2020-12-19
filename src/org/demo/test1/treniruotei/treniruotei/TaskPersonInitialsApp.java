@@ -6,9 +6,9 @@ public class TaskPersonInitialsApp {
     public static void main(String[] args) {
         TaskPersonInitials initials = new TaskPersonInitials();
 
-        String rezultatas = initials.makeInitials("Jonas", "Jonaitis");
+        String rezultatas = initials.makeInitials("Jonaitis");
         System.out.println(rezultatas);
-        rezultatas = initials.makeInitials("daRius", "petraitis");
+        rezultatas = initials.makeInitials("Petraitis");
         System.out.println(rezultatas);
     }
 
