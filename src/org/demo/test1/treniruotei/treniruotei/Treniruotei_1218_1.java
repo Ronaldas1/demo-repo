@@ -1,4 +1,4 @@
-package org.demo.test1.treniruotei.Treniruotei;
+package org.demo.test1.treniruotei.treniruotei;
 
 public class Treniruotei_1218_1 {
     public static void main(String[] args) {

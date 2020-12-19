@@ -1,4 +1,4 @@
-package org.demo.test1.treniruotei.Treniruotei;
+package org.demo.test1.treniruotei.treniruotei;
 
 public class Treniruotei_1216_2 {
     public void fullThrottle() {

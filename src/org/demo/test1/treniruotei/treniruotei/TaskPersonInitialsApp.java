@@ -1,4 +1,4 @@
-package org.demo.test1.treniruotei.Treniruotei;
+package org.demo.test1.treniruotei.treniruotei;
 
 import org.demo.test1.treniruotei.TaskPersonInitials;
 
