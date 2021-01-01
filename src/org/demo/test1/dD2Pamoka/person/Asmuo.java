@@ -7,7 +7,7 @@ public class Asmuo {
     private String pavarde;
     private String asmensKodas;
     private Integer gimimoMetai;
-    private Lytis lytis;
+    private String lytis;
 
     public String getAsmensID() {
         return asmensID;
@@ -53,7 +53,7 @@ public class Asmuo {
         return lytis;
     }
 
-    public void setLytis(Lytis lytis) {
+    public void setLytis(String lytis) {
         this.lytis = lytis;
     }
 }
