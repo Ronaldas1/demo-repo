@@ -9,7 +9,7 @@ public class AsmuoApp {
         as.setPavarde("Jonaitis");
         as.setAsmensKodas("123456789");
         as.setGimimoMetai(2020);
-        as.setLytis("vyras");
+        //as.setLytis("vyras");
         System.out.println(as.getVardas());
         System.out.println(kitas.getVardas());
         System.out.println(as.getPavarde());
