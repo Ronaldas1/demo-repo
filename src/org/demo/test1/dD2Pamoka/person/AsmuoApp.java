@@ -1,5 +1,7 @@
 package org.demo.test1.dD2Pamoka.person;
 
+//import task.sav1.tipai.inicialai.Asmuo;
+
 public class AsmuoApp {
     public static void main(String[] args) {
         Asmuo as = new Asmuo();

@@ -1,4 +1,4 @@
-package org.demo.test1.dD2Pamoka.person;
+package task.sav1.tipai.inicialai;
 
 public enum Lytis {
     Vyras, Moteris, Kita
