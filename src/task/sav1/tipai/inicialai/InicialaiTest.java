@@ -15,6 +15,7 @@ public class InicialaiTest {
 		System.out.println("Po suns patikrinimo nustatyta: " +grinda.patikrino(brisius));
 
 		String rezultatas1 = initials.pagamink(jonaitis);
+		//String rezultatas2 =initials.toUpperCase() + pavarde.charAt(0);
 		// String rezultatas2 = initials.makeInitials(jonaitis);
 //		String rezultatas2 = jonaitis.getPavarde();
 //		String rezultatas3 = jonaitis.getVardas();
@@ -28,8 +29,8 @@ public class InicialaiTest {
 
 	}
 
-	private void suma() {
+	//private void suma() {
 		// TODO Auto-generated method stub
 
 	}
-}
+
