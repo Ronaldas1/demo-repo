@@ -1,7 +1,7 @@
 package sultys;
 
 public class Sultys1 {
-	public boolean arNeraLikucio (int talpa, int sulciuKiekis) {
+	public boolean arNeraLikucio (int likutis) {
 		//KitaSultys1 x = new KitaSultys1();
 		//x.ispilstyk (10 % 3);
 		//int talpa1 = 3;
