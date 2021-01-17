@@ -1,22 +1,19 @@
 package sultys;
 
 public class Sultys1 {
-	public boolean arNeraLikucio (int likutis) {
-		//KitaSultys1 x = new KitaSultys1();
-		//x.ispilstyk (10 % 3);
-		//int talpa1 = 3;
-		//int sulciuKiekis1 = 10;		
-		//int ispilstytosSultys = sulciuKiekis1 % talpa1;
+
+	public boolean arNeraLikucio1(int sulciuKiekisViso, int talposTuris) {
 		 
-		return false;
+		return (sulciuKiekisViso % talposTuris) == 0;
 	}
-
+	public boolean arNeraLikucio2(int sulciuKiekisViso, int talposTuris, boolean reikalingasTikLyginis) {
+		 
+		return (sulciuKiekisViso % talposTuris) == 0;
+		
+	}
+	public boolean arNeraLikucio3(int sulciuKiekisViso, int talposTuris, boolean reikalingasTikLyginis, boolean ispilstytuTalpuKiekis) {
+		ispilstytuTalpuKiekis = ((sulciuKiekisViso % talposTuris)%2) == 0; 
+		return ispilstytuTalpuKiekis;
+		
+	}
 }
-
-//KitaSultys1.java
-
-//public class KitaSultys {
-	//public boolean ispilstyk (int sk1) {
-		//return ;
-	//}
-//}
