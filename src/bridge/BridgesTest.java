@@ -16,6 +16,13 @@ public class BridgesTest {
 		System.out.println(getWay.equals(p4 && p3 && p2));
 		System.out.println(getWay.equals(p4 && p6 && p5));
 		System.out.println(getWay.equals(p1 && p3 && p5));
+		System.out.println(getWay.getWay(p1 && p3 && p5, p6, p6, p6, p6, p6));
+		System.out.println(getWay.getWay(p1 && p3 && p5, p5, p4, p3, p2, p1));
+		System.out.println(p1 && p2);
+		System.out.println(p4 && p5);
+		System.out.println(p4 && p3 && p2);
+		System.out.println(p4 && p6 && p5);
+		System.out.println(p1 && p3 && p5);
 
 	}
 }
