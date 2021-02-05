@@ -1,5 +1,7 @@
 package array;
 
+import java.util.Arrays;
+
 public class QuizMatricaMatmenys {
 	int[][] matrix = new int[3][2];{
 
@@ -18,6 +20,9 @@ public class QuizMatricaMatmenys {
 		System.out.println(matrix[2][-1]);
 		System.out.println(matrix[-1][-1]);
 		System.out.println(matrix[3][0]);
+		System.out.println(Arrays.toString(matrix));
+		//System.out.println(Arrays.sort(matrix));
+		//System.out.println(Arrays.fill(matrix, 2));
 		
 }
 }
