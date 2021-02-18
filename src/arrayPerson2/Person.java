@@ -46,23 +46,7 @@ public class Person {
 	}
 	
 	
-	public enum Lytis { VYR, MOT, KITA }
 	
-	//String[] person = {id + vardas + pavarde + ak + gimMetai + lytis};
-	//System.out.println(person.String split);
-	public class PersonData {
-
-		public Person personFromString(String person) {
-			//TODO
-			Person person1 = new Person ();
-			//String person1 = person2;
-			//String id = person.getId();
-			String[] person2 = {id + vardas + pavarde + ak + gimMetai + lytis};
-				//return null;
-			//return this.personFromString(person2.split);
-			return null;
-		}
-		}
 
 }
 
