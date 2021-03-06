@@ -2,7 +2,7 @@ package arrayPerson2;
 
 //import com.sun.java.swing.plaf.windows.TMSchema.TypeEnum;
 
-public class PersonData {
+public class PersonSerializer {
 	// "Ona Onute 4485465456 1984 mot"
 	// "Vardas Pavarde 3485465456 1984 vyr"
 	// "Algis Antanas Þigas 3485465456 1984 vyr"
@@ -48,9 +48,7 @@ public class PersonData {
 		return x.getVardas() + " " + x.getPavarde() + " " + x.getAk() + " " + x.getGimMetai() + " " + x.getLytis();
 	}
 
-	public boolean validate(Person x) {
-		return false;
-	}
+	
 
 	public Person[] validBatchConverter(String[] persons) {
 		return null;
