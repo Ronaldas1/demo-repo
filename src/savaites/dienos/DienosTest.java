@@ -5,6 +5,10 @@ public class DienosTest {
 		Dienos siandienYra = new Dienos();
 		int i = 1;
 		System.out.println(siandienYra.weekDayToStr(i));
+		
+		switch (i) {
+		
+		}
 
 	}
 

@@ -2,13 +2,13 @@ package savaites.dienos;
 
 public class DienosTipas {
 	public String weekDayTypeToStr(int i) {
-		// TODO
-		if (++i <= 5) {
+		if (i < 1 || i > 7 ) {
+			return "?";
+		}
+		if (i < 6) {
 			return "Darbo diena";
-		} else if (i == 6) {
-			return "Savaitgalis";
-		} else if (i == 7)
-			;
+		} 
+			
 		return "Savaitgalis";
 	}
 }

@@ -1,25 +1,26 @@
 package savaites.dienos;
 
-public class Dienos {
+public class DienosSwitch {
 	public String weekDayToStr(int i) {
 		// TODO
-		if (i == 1) {
+		switch (i) {
+		case 1:
 			return "Pirmadienis";
-		} else if (i == 2) {
+		case 2:
 			return "Antradienis";
-		} else if (i == 3) {
+		case 3:
 			return "Treciadienis";
-		} else if (i == 4) {
+		case 4:
 			return "Ketvirtadienis";
-		} else if (i == 5) {
+		case 5:
 			return "Penktadienis";
-		} else if (i == 6) {
-			return " Sestadienis";
-		} else if (i == 7) {
+		case 6:
+			return "Sestadienis";
+		case 7:
 			return "Sekmadienis";
+
 		}
-		return "Kita savaite";
 
+		return "Savaites pabaiga";
 	}
-
 }
