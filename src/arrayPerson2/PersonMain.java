@@ -1,5 +1,7 @@
 package arrayPerson2;
 
+import java.util.Arrays;
+
 public class PersonMain {
 	public static void main(String[] args) {
 
@@ -11,10 +13,12 @@ public class PersonMain {
 		// youngerPerson2.formatted(youngerPerson2.split(youngerPerson2, 0)),
 		// youngerPerson3.formatted(youngerPerson3.split(youngerPerson3)) };
 		// String[] youngerPersons = {youngerPerson1, youngerPerson2, youngerPerson3};
-		String[] youngerPersons = youngerPerson1.split("\\s");
+		// String[] youngerPersons = youngerPerson1.split("\\s");
+		String[] youngerPersons = { youngerPerson1, youngerPerson2, youngerPerson3 };
 		if (youngerPersons != null) {
 			// System.out.println(youngerPerson1 + youngerPerson2 + youngerPerson3);
-			System.out.println(youngerPersons);
+			System.out.println(Arrays.toString(youngerPersons));
+			System.out.println(youngerPerson1);
 		}
 	}
 }
