@@ -31,27 +31,60 @@ public class TaskSort1 {
 		// return Integer.parseInt(dataToInt);
 		// return Arrays.toString(data3);
 		return data3;
+		//return dataToInt;
 	}
 
 	public int[] sortInts(int[] unsorted) {
-		int[] data3 = new int[i];
-		for (int i = 0; i > i + 1; i++)
-			;
-		// if (arr[i]>arr[i+1]) {
-		if (data3[i] > data3[i + 1]) {
-			// return data3[i + 1];
-			return i + 1;
+		
+		TaskSort1 sortInts = new TaskSort1();
+		int x = 0;
+		if (unsorted[0] > unsorted[1]) {
+			x = unsorted[1];
+			//return unsorted;
 		}
-	}
-	// return unsorted ;
+		//if (unsorted[0] < unsorted[1]) {
+			//x = unsorted[0];
+		//}
+		if (unsorted[1] > unsorted[2]) {
+			x = unsorted[2];
+		}
+		//if (unsorted[1] < unsorted[2]) {
+			//x = unsorted[1];
+		//}
+		if (unsorted[2] > unsorted[3]) {
+			x = unsorted[3];
+		}
+		if (unsorted[3] > unsorted[4]) {
+			x = unsorted[4];
+		}
+		if (unsorted[4] > unsorted[5]) {
+			x = unsorted[5];
+		}
+		//if (unsorted[4] < unsorted[5]) {
+			//x = unsorted[4];
+		//}
+		if (unsorted[5] > unsorted[6]) {
+			x = unsorted[6];
+		}
+		if (unsorted[5] < unsorted[6]) {
+			x = unsorted[5];
+		}
 
-	// }
+		//return null;
+		return unsorted;
+
+	}
 
 	public static void main(String[] args) {
 		TaskSort1 y = new TaskSort1();
+		TaskSort3 v = new TaskSort3();
 		// System.out.println(Arrays.toString(data3));
 		// System.out.println(Arrays.toString(y));
-		System.out.println("3242  43  22222  34  1111111  234  234");
+		//System.out.println("3242  43  22222  34  1111111  234  234");
 		// System.out.println(Arrays.toString("3242 43 22222 34 1111111 234 234"));
+		System.out.println (y.dataToInt(null));
+		System.out.println(y.sort(null, false));
+		System.out.println(y.sortInts(null));
+		System.out.println(v.TaskSort3);	
 	}
 }
